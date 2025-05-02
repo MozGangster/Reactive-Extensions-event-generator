@@ -1,5 +1,3 @@
-﻿using System;
-
-namespace RxSouceGeneratorXUnitTests;
+﻿namespace RxSouceGeneratorXUnitTests;
 
 public class SomeEventArgs : EventArgs { }

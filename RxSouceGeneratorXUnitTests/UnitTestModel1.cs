@@ -1,5 +1,4 @@
 using Xunit;
-using System;
 using System.Reactive.Linq;
 using RxMethodGenerator;
 namespace RxSouceGeneratorXUnitTests;

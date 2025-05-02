@@ -1,5 +1,4 @@
-﻿using System;
-using System.Reactive.Linq;
+﻿using System.Reactive.Linq;
 using RxMethodGenerator;
 namespace TestConsoleApp
 {
@@ -10,7 +9,7 @@ namespace TestConsoleApp
         {
             Example example = new Example();
             example.RxActionEvent().Subscribe();
-            example.
+            example.RxActionEvent1().Subscribe();
         }
     }  
 

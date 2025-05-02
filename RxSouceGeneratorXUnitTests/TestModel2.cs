@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RxSouceGeneratorXUnitTests;
+﻿namespace RxSouceGeneratorXUnitTests;
 
 public class TestModel2
 {
