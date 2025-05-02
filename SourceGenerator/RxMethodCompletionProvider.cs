@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Composition;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -107,7 +106,7 @@ namespace RxSourceGenerator
                         break;
                 }
 
-                CompletionItem item = CompletionItem.Create($"Rx{ev.Name}",  tags: ImmutableArray.Create(taggedTexts.ToArray()));
+                CompletionItem item = CompletionItem.Create($"Rx{ev.Name}", tags: ImmutableArray.Create(taggedTexts.ToArray()));
                 context.AddItem(item);
             }
         }
