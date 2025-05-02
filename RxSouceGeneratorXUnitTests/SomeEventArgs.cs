@@ -1,6 +1,5 @@
 ﻿using System;
 
-namespace RxSouceGeneratorXUnitTests
-{
-    public class SomeEventArgs : EventArgs { }
-}
+namespace RxSouceGeneratorXUnitTests;
+
+public class SomeEventArgs : EventArgs { }
